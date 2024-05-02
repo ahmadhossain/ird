@@ -1,4 +1,4 @@
-import React from "react";
+import { BiSolidDonateHeart } from "react-icons/bi";
 
 const Navbar = () => {
   return (
@@ -17,10 +17,9 @@ const Navbar = () => {
             placeholder="Search Hadith"
           />
         </div>
-        <div>
-          <button className="px-4 py-3 rounded-lg text-white text-sm bg-emerald-600">
-            সাপোর্ট
-          </button>
+        <div className="flex gap-3 px-4 py-3 items-center bg-[#2b9e76] rounded-lg">
+          <div className="text-white font-medium text-sm ">সাপোর্ট করুন</div>
+          <BiSolidDonateHeart color="white" size={23} />
         </div>
       </div>
     </div>

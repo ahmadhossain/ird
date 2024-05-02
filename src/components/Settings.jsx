@@ -2,7 +2,7 @@ import React from "react";
 
 const Settings = () => {
   return (
-    <div className="overflow-y-auto max-w-[25%]">
+    <div className="overflow-y-auto max-w-[22.5%]">
       <div className="h-80 bg-white rounded-2xl mb-6">
         <div className="text-center text-lg font-medium py-4">সেটিংস</div>
       </div>

@@ -12,7 +12,7 @@ const Main = () => {
             <div>logo</div>
             <div className="flex justify-between w-full">
               <div>
-                <div className="text-lg font-medium">সহিহ বুখারী </div>
+                <div className="text-lg font-medium">সহিহ বুখারী</div>
                 <div className="text-xs">সর্বমোট হাদিস - ৭৫৬৩</div>
               </div>
               <div className="text-2xl font-medium">صحيح البخاري</div>
