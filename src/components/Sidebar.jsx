@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <IconContext.Provider
       value={{
-        className: "p-3 hover:bg-gray-100 fill-gray-500 rounded-lg",
+        className: "p-3 hover:bg-gray-100 fill-gray-500 rounded-md",
       }}
     >
       <div className="flex flex-col gap-y-6 mt-12 p-4">

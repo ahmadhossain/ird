@@ -1,10 +1,14 @@
 import { BiSolidDonateHeart } from "react-icons/bi";
+import logo from "../../public/home-logo.png";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <div className="flex justify-between p-4">
-      <div className="flex gap-1">
-        <div>logo</div>
+      <div className="flex gap-5">
+        <div>
+          <Image width={42} src={logo} />
+        </div>
         <div className="flex flex-col gap-y-1">
           <div className="text-base font-semibold">হাদিস সমূহ</div>
           <div className="text-xs">হাদিস পড়ুন শিখুন এবং জানুন</div>

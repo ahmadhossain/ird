@@ -2,7 +2,7 @@ import React from "react";
 
 const Outline = () => {
   return (
-    <div className="min-w-[22.5%] h-full">
+    <div className="min-w-[25%] h-full">
       <div className="flex border-b">
         <button className="w-full bg-white rounded-tl-xl">বই</button>
         <button className="w-full py-3.5 text-white rounded-tr-xl bg-[#2b9e76]">

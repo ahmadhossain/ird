@@ -1,15 +1,24 @@
-import React from "react";
-
+import { TbBooks } from "react-icons/tb";
+import { GiBlackBook } from "react-icons/gi";
+import { PiBookOpenTextLight } from "react-icons/pi";
+import { AiOutlineOpenAI } from "react-icons/ai";
+import { IoCopyOutline, IoShareSocialOutline } from "react-icons/io5";
+import { IoBookmarkOutline } from "react-icons/io5";
+import { MdReportGmailerrorred } from "react-icons/md";
+import { SlShareAlt } from "react-icons/sl";
 const Main = () => {
   return (
-    <div className="max-w-[55%] rounded-2xl overflow-y-auto">
+    <div className="max-w-[50%] rounded-2xl overflow-y-auto">
       <div className="">
-        <div className="bg-[#fafbfb] rounded-t-2xl px-4 py-4 text-sm text-gray-500 border-b">
-          logo &gt; Bukhari &gt; 1
+        <div className="flex items-center bg-[#fafbfb] rounded-t-2xl px-4 py-4 text-sm text-gray-500 border-b">
+          <TbBooks size={22} />
+          <div>&gt; Bukhari &gt; 1</div>
         </div>
         <div className="flex flex-col gap-4">
           <div className="bg-white rounded-b-2xl flex gap-3 px-5 py-5">
-            <div>logo</div>
+            <div>
+              <GiBlackBook size={40} color="#2b9e76" />
+            </div>
             <div className="flex justify-between w-full">
               <div>
                 <div className="text-lg font-medium">সহিহ বুখারী</div>
@@ -27,8 +36,10 @@ const Main = () => {
           <div className="bg-white rounded-2xl p-5 flex flex-col gap-6">
             <div className="border-b pb-6 flex flex-col gap-5">
               <div className="flex gap-2">
-                <div>logo</div>
-                <div>১/১. অধ্যায়ঃ</div>
+                <div className="flex gap-3 items-center">
+                  <PiBookOpenTextLight size={40} color="#2b9e76" />
+                  <div>১/১. অধ্যায়ঃ</div>
+                </div>
               </div>
               <div>
                 আল্লাহ্‌র রসূল (সাল্লাল্লাহু 'আলাইহি ওয়া সাল্লাম)- এর প্রতি
@@ -43,8 +54,10 @@ const Main = () => {
           </div>
           <div className="bg-white p-5 rounded-2xl">
             <div className="flex gap-3">
-              <div>logo</div>
-              <div className="text-[#2b9e76] text-lg">১</div>
+              <div className="flex gap-2 items-center">
+                <AiOutlineOpenAI size={25} color="#2b9e76" />
+                <div className="text-[#2b9e76] text-lg">১</div>
+              </div>
             </div>
             <p className="py-6 leading-9 text-lg">
               حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ
@@ -80,7 +93,13 @@ const Main = () => {
                   সহিহ হাদিস
                 </div>
               </div>
-              <div>logo</div>
+              <div className="flex gap-10">
+                <IoCopyOutline size={25} color="gray" />
+                <IoBookmarkOutline size={25} color="gray" />
+                <IoShareSocialOutline size={25} color="gray" />
+                <MdReportGmailerrorred size={25} color="gray" />
+                <SlShareAlt size={25} color="gray" />
+              </div>
             </div>
             <div></div>
             <div></div>
