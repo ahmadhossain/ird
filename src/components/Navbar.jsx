@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="flex justify-between p-4">
       <div className="flex gap-5">
         <div>
-          <Image width={42} src={logo} />
+          <Image width={42} src={logo} alt="Logo" />
         </div>
         <div className="min-[1024px]:flex hidden flex-col gap-y-1">
           <div className="text-base font-semibold">হাদিস সমূহ</div>

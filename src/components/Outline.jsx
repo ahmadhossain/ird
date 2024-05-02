@@ -34,6 +34,7 @@ const Outline = () => {
         <div className="overflow-y-auto h-[calc(100vh-270px)]">
           {obj.map((el, index) => (
             <div
+              key={index}
               className={`flex hover:bg-emerald-50 mb-2 gap-2 px-5 py-5 ${
                 index == 0 ? "bg-emerald-50" : ""
               } rounded-2xl`}
