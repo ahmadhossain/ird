@@ -29,7 +29,7 @@ const Sidebar = () => {
         </div>
       </div>
       {/* </div> */}
-      {/* <div className="absolute px-4 py-3 bg-[#2b9e76] rounded-lg">
+      {/* <div className="fixed px-4 py-3 bg-[#2b9e76] rounded-lg">
         <BiSolidDonateHeart color="white" size={23} />
       </div> */}
     </IconContext.Provider>

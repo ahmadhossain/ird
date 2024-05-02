@@ -19,6 +19,7 @@ export default function Home() {
           <Settings />
         </div>
       </div>
+      {/* <div className="fixed mb-0">fixes</div> */}
     </div>
   );
 }

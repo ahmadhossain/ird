@@ -3,9 +3,9 @@ import React, { useState } from "react";
 const Settings = () => {
   const [font1, setfont1] = useState(22);
   const [font2, setfont2] = useState(19);
-  const arr = ["১৯", "২০", "২১", "২২"];
+  const arr = ["১৮", "১৯", "২০", "২১", "২২"];
   return (
-    <div className="min-[1535px]:flex flex-col hidden overflow-y-auto max-w-[22.5%]">
+    <div className="min-[1535px]:flex flex-col hidden overflow-y-auto max-w-[25%]">
       <div className="px-5 py-3 bg-white rounded-2xl mb-6">
         <div className="text-center text-lg font-medium py-4">সেটিংস</div>
         <div className="flex flex-col gap-4 py-3">
@@ -33,7 +33,7 @@ const Settings = () => {
               value={font2}
               onChange={(e) => setfont2(e.target.value)}
             />
-            <div>{font2}</div>
+            <div>১৯</div>
           </div>
         </div>
         <div className="flex py-2 justify-between">
